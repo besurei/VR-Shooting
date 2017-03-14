@@ -140,14 +140,8 @@ Material:
         name: _DstBlend
       second: 0
     - first:
-        name: _GlossMapScale
-      second: 1
-    - first:
         name: _Glossiness
       second: 0
-    - first:
-        name: _GlossyReflections
-      second: 1
     - first:
         name: _Metallic
       second: 0
@@ -169,12 +163,6 @@ Material:
     - first:
         name: _Shininess
       second: 0.1
-    - first:
-        name: _SmoothnessTextureChannel
-      second: 0
-    - first:
-        name: _SpecularHighlights
-      second: 1
     - first:
         name: _SquashAmount
       second: 1

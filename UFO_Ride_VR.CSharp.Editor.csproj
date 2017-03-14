@@ -118,6 +118,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UFO_Ride_VR.CSharp.Plugins.csproj">
@@ -153,8 +156,16 @@
     <Compile Include="Assets\Sky_city\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Compile Include="Assets\Sky_city\Editor\ImageEffects\TonemappingEditor.cs" />
     <Compile Include="Assets\Sky_city\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Editor\TrackAssetHook.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Editor\TrackCartEditor.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Editor\TrackCartSoundEditor.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Editor\TrackEditor.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Editor\TrackEditorUtil.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Editor\TrackSwitcherEditor.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Editor\TrackWindow.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\MoviePlayer\Readme.txt" />
     <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
     <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
@@ -273,6 +284,8 @@
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+    <None Include="Assets\ZFTrack\Changelog.txt" />
+    <None Include="Assets\ZFTrack\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

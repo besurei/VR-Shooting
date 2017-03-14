@@ -81,6 +81,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MoviePlayer\Scripts\MovieTexturePlayer.cs" />
     <Compile Include="Assets\OVR\Scripts\OVRBoundary.cs" />
     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
     <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
@@ -139,7 +140,7 @@
     <Compile Include="Assets\Samples\Scripts\VelocityTracker.cs" />
     <Compile Include="Assets\Scripts\Game\Bullet.cs" />
     <Compile Include="Assets\Scripts\Game\Gun.cs" />
-    <Compile Include="Assets\Scripts\Game\Player.cs" />
+    <Compile Include="Assets\Scripts\Game\Vehicle.cs" />
     <Compile Include="Assets\Scripts\Movie.cs" />
     <Compile Include="Assets\Scripts\ScreenFade.cs" />
     <Compile Include="Assets\Scripts\Title\TitleManager.cs" />
@@ -223,8 +224,28 @@
     <Compile Include="Assets\Sky_city\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\Sky_city\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Sky_city\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\ZFTrack\Demo\Scripts\CartFreezer.cs" />
+    <Compile Include="Assets\ZFTrack\Demo\Scripts\LiftControl.cs" />
+    <Compile Include="Assets\ZFTrack\Demo\Scripts\ReverseForce.cs" />
+    <Compile Include="Assets\ZFTrack\Demo\Scripts\SpeedControl.cs" />
+    <Compile Include="Assets\ZFTrack\Demo\Scripts\TouchSwitch.cs" />
+    <Compile Include="Assets\ZFTrack\Demo\Scripts\TriggerTrackSwitch.cs" />
+    <Compile Include="Assets\ZFTrack\Demo\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\CartSoundClipInfo.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\CharacterRidesCart.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Extensions.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\SimpleTransform.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Station.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\Track.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\TrackCart.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\TrackCartSound.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\TrackCurve.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\TrackMeshGenerator.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\TrackSwitcher.cs" />
+    <Compile Include="Assets\ZFTrack\Scripts\WheelSpin.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\MoviePlayer\Readme.txt" />
     <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
     <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
@@ -343,6 +364,8 @@
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+    <None Include="Assets\ZFTrack\Changelog.txt" />
+    <None Include="Assets\ZFTrack\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

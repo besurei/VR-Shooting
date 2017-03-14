@@ -1,0 +1,131 @@
+(Version numbers: http://semver.org/)
+
+3.0.0:
+
+  Summary: Roll interpolates much better, track bender window, many new features.
+
+  Features:
+    - Added new curve type, CurveType.HermiteV2, which deals much, much
+    better with sections than bend up or down more than 90°.
+      - This is now the default curve type.
+    - Track ties are now much more evenly spaced. (We now use approximated
+      physical distance instead of a Hermite fraction.)
+    - Added EndOfLineBehavior.EndStop, which causes carts reaching the end
+    of the line to slam to a halt as if there was a wall.
+    - Added a new "Track Bender" window filled with tools for bending
+    track and quickly roughing track layout.
+    - Static tracks now support lightmapping (in newest Unity versions).
+    - Added a simple CharacterRidesCart (example) script to allow an FPS
+      controller to get on the cart, look and control it, and get off again.
+    - Added new cart parameter "curvePreservation" which preserves cart
+      velocities better when going around curves, but may need to be
+      tuned to keep the physics realistic.
+      For now this defaults to 0 (old behavior), but may change in the
+      future. A value of .5 - .7 is recommended for "frictionless" carts.
+    - Added button in the inspector to select all connected track pieces
+      at once.
+    - Added events to Track (onCartEnter/onCartLeave) for when TrackCarts
+      enter or leave a section.
+    - Added WheelSpin script. Attach it to your cart's wheels to make them
+      spin as the cart moves along track.
+    - Sloped brakes set to a target speed of 0 will actually stop when the
+      cart slows enough.
+    - Added experimental support for tracks with rigidbodies.
+    - Added elevator lift (cart riding track riding track) demo/example.
+    - Mesh generation appears in the profiler.
+    - Added new option to force end cap generation even when a track is
+      linked.
+
+  Changes:
+    - Drop Unity 4.x support.
+    - These defaults have been changed. Existing scenes should continue
+      to use the old value.
+      - TrackCart.clearingDistance now defaults to .5
+      - CurveType.HermiteV2 is now the default curve type
+    - Tracks with rigidbodies will now generate collision meshes. (They
+      still complain if the collider is not marked convex.)
+    - Some tools on the track inspector have been moved to or superseded
+      by items in the Track Bender window.
+    - Rearranged/normalized folder structure, demo is no longer buried in
+      a .zip.
+    - Removed the loop demo as building loops is much easier now.
+
+  Fixes:
+    - Carts with gravity disabled will no longer get magically pulled down
+      by their invisible guide.
+    - "Find and Snap to Track" for carts now correctly restores unlinked
+      state on undo.
+    - "Find and Snap to Track" doesn't snap to disabled Tracks anymore.
+    - NearestPoint (& friends) with a distant position correctly return
+      the start or end of a track section.
+      - Fixes: "Find and Snap to Track" doesn't snap to non-nearest tracks
+        anymore.
+    - Fix logged (but harmless) error when merging tracks.
+    - Editor: Snapping a track to nearest no longer snaps to disabled tracks.
+
+
+2.0.0:
+
+  Summary: Added sound support, improved cart tracking, more demos,
+  fixes, improvements.
+
+  This release contains breaking changes.
+
+  Features:
+    - Curve start and end points now have strengths, allowing better
+      control over the curve.
+      - When editing the start or end of a track piece, use the new purple
+        ball to adjust the curve strength.
+    - Added snap-cart-to-track button. Use it to align an assigned cart to
+      its track or to assign a new cart to the nearest track and align it.
+    - Add new demos for:
+      - Creating a multi-car train.
+      - Creating a touch control to switch track between nodes.
+    - Added new TrackCartSound script for adding sounds to carts. See the
+      readme under "Cart Sounds" for details.
+    - Two carts with their sound set up are included in the Prefabs folder.
+    - Examples of the other track profiles are included in the Prefabs
+      folder. (You may have to re-assign textures if using Unity 4.)
+    - TrackSwitcher can now switch the start of the track.
+    - TrackSwitcher can be manually switched during play mode from the
+      inspector.
+
+  Changes:
+    - CatmullRom and Linear curve types have been removed.
+      - These cure types do not guarantee that the tangent of the curve
+        matches the direction of the curve at the start and end points.
+      - Hermite curves now allow you to control to strength of the curve
+        at the beginning and end.
+    - Existing Hermite curves should retain their shape, but may not be
+      generated pixel-for-pixel the same as last release.
+    - All track scripts were moved into a namespace. Add "using
+      ZenFulcrum.Track;" to the top of any file using track APIs.
+    - The field CartTrack.currentTrack has been replaced with the
+      property CartTrack.CurrentTrack.
+      - SwitchCurrentSectionTo is now deprecated, use
+        track.CurrentTrack = x instead.
+
+
+  Fixes:
+    - Cart tracking has been overhauled.
+      - Sharp corners and strangely shaped pieces should no longer explode
+        or continue straight.
+      - Strangely shaped pieces should no longer face a (notably different)
+        different direction than the track section they are on.
+      - Single pieces that loop should now work, provided they doesn't
+        self-intersect (or nearly self-intersect) and aren't too cusp-like.
+    - Limit the number of rail ties we will generate to something sane.
+    - Remove some empty/unused bits.
+    - Lots of spelling fixes.
+    - TrackSwitcher doesn't force a switch on startup.
+    - Added a warning in the Editor when you try to modify static geometry.
+    - Added copyright header to C# files.
+    - Acceleration on a TrackCart is determined correctly for stopped and
+      very slow bodies, even when only reverse thrust is allowed.
+    - TrackSwitcher won't get stuck between positions if switched away and
+      back before a transition completes.
+    - Other minor fixes.
+
+1.0.0 ("draft"):
+  Initial release
+

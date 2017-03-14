@@ -106,6 +106,7 @@
     <Compile Include="Assets\Standard Assets\Effects\TonemappingColorGrading\TonemappingColorGrading.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\MoviePlayer\Readme.txt" />
     <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
     <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
@@ -224,6 +225,8 @@
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+    <None Include="Assets\ZFTrack\Changelog.txt" />
+    <None Include="Assets\ZFTrack\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
