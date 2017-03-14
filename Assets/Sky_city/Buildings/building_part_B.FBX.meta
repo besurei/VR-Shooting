@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: b575ad36a636c2942b696bea83d0c139
+timeCreated: 1454472437
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: sky_wall004
+    100004: sky_wall005
+    100006: sky_wall_border004
+    100008: sky_wall_border005
+    100010: sky_wall_border006
+    100012: sky_wall_border007
+    100014: sky_wall_windows002
+    100016: sky_wall_windows003
+    100018: sky_wall_windows_top
+    100020: sky_wall_windows_top001
+    100022: sky_wall_windows004
+    100024: sky_wall_windows005
+    100026: sky_wall_windows008
+    400000: //RootNode
+    400002: sky_wall004
+    400004: sky_wall005
+    400006: sky_wall_border004
+    400008: sky_wall_border005
+    400010: sky_wall_border006
+    400012: sky_wall_border007
+    400014: sky_wall_windows002
+    400016: sky_wall_windows003
+    400018: sky_wall_windows_top
+    400020: sky_wall_windows_top001
+    400022: sky_wall_windows004
+    400024: sky_wall_windows005
+    400026: sky_wall_windows008
+    2300000: sky_wall004
+    2300002: sky_wall005
+    2300004: sky_wall_border004
+    2300006: sky_wall_border005
+    2300008: sky_wall_border006
+    2300010: sky_wall_border007
+    2300012: sky_wall_windows002
+    2300014: sky_wall_windows003
+    2300016: sky_wall_windows_top
+    2300018: sky_wall_windows_top001
+    2300020: sky_wall_windows004
+    2300022: sky_wall_windows005
+    2300024: sky_wall_windows008
+    2300026: //RootNode
+    3300000: sky_wall004
+    3300002: sky_wall005
+    3300004: sky_wall_border004
+    3300006: sky_wall_border005
+    3300008: sky_wall_border006
+    3300010: sky_wall_border007
+    3300012: sky_wall_windows002
+    3300014: sky_wall_windows003
+    3300016: sky_wall_windows_top
+    3300018: sky_wall_windows_top001
+    3300020: sky_wall_windows004
+    3300022: sky_wall_windows005
+    3300024: sky_wall_windows008
+    3300026: //RootNode
+    4300000: sky_wall_border004
+    4300002: sky_wall004
+    4300004: sky_wall_windows002
+    4300006: sky_wall_border005
+    4300008: sky_wall_border006
+    4300010: sky_wall_windows003
+    4300012: sky_wall_border007
+    4300014: sky_wall005
+    4300016: sky_wall_windows_top001
+    4300018: sky_wall_windows_top
+    4300020: sky_wall_windows004
+    4300022: sky_wall_windows005
+    4300024: sky_wall_windows008
+    4300026: sky_wallb
+    4300028: sky_walb
+    6400000: sky_wall004
+    6400002: sky_wall005
+    6400004: sky_wall_border004
+    6400006: sky_wall_border005
+    6400008: sky_wall_border006
+    6400010: sky_wall_border007
+    6400012: sky_wall_windows002
+    6400014: sky_wall_windows003
+    6400016: sky_wall_windows_top
+    6400018: sky_wall_windows_top001
+    6400020: sky_wall_windows004
+    6400022: sky_wall_windows005
+    6400024: sky_wall_windows008
+    6400026: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

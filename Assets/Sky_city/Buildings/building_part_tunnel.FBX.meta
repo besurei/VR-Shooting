@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: e3d51eae1edf6454aa1b2b07ddfdcda3
+timeCreated: 1454665100
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: sky_wall_border008
+    100004: sky_wall_border009
+    100006: sky_wall_border010
+    100008: sky_wall_border011
+    100010: sky_wall_tunnel
+    100012: sky_wall_windows006
+    100014: sky_wall_windows007
+    100016: sky_tunnel_arch
+    100018: sky_tunnel_arch001
+    100020: sky_wall006
+    100022: sky_wall007
+    400000: //RootNode
+    400002: sky_wall_border008
+    400004: sky_wall_border009
+    400006: sky_wall_border010
+    400008: sky_wall_border011
+    400010: sky_wall_tunnel
+    400012: sky_wall_windows006
+    400014: sky_wall_windows007
+    400016: sky_tunnel_arch
+    400018: sky_tunnel_arch001
+    400020: sky_wall006
+    400022: sky_wall007
+    2300000: sky_wall_border008
+    2300002: sky_wall_border009
+    2300004: sky_wall_border010
+    2300006: sky_wall_border011
+    2300008: sky_wall_tunnel
+    2300010: sky_wall_windows006
+    2300012: sky_wall_windows007
+    2300014: sky_tunnel_arch
+    2300016: sky_tunnel_arch001
+    2300018: sky_wall006
+    2300020: sky_wall007
+    2300022: //RootNode
+    3300000: sky_wall_border008
+    3300002: sky_wall_border009
+    3300004: sky_wall_border010
+    3300006: sky_wall_border011
+    3300008: sky_wall_tunnel
+    3300010: sky_wall_windows006
+    3300012: sky_wall_windows007
+    3300014: sky_tunnel_arch
+    3300016: sky_tunnel_arch001
+    3300018: sky_wall006
+    3300020: sky_wall007
+    3300022: //RootNode
+    4300000: sky_wall_border008
+    4300002: sky_wall_border009
+    4300004: sky_wall_border010
+    4300006: sky_wall_border011
+    4300008: sky_wall_windows006
+    4300010: sky_wall_windows007
+    4300012: sky_wall_tunnel
+    4300014: sky_tunnel_arch
+    4300016: sky_tunnel_arch001
+    4300018: sky_wall006
+    4300020: sky_wall007
+    6400000: sky_wall_border008
+    6400002: sky_wall_border009
+    6400004: sky_wall_border010
+    6400006: sky_wall_border011
+    6400008: sky_wall_tunnel
+    6400010: sky_wall_windows006
+    6400012: sky_wall_windows007
+    6400014: sky_tunnel_arch
+    6400016: sky_tunnel_arch001
+    6400018: sky_wall006
+    6400020: sky_wall007
+    6400022: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
