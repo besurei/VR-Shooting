@@ -10,10 +10,14 @@ public class Gun : MonoBehaviour {
     private Vector3 handPos;
     private Quaternion handRot;
     private GameObject hand;
-    private float speed = 1000.0f;
+    private float speed = 3000.0f;
 
     public int handType;    // 0.右手 1.左手
     public GameObject prefBullet;
+
+    // サウンド
+    //public AudioClip audioClip;
+    //private AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -30,6 +34,11 @@ public class Gun : MonoBehaviour {
                 spawnTrans = transform.FindChild("Spawn_L");
                 break;
         }
+
+        // オーディオ初期化
+        //audioSource = GetComponent<AudioSource>();
+        //audioSource.clip = audioClip;
+        //audioSource.loop = false;
 	}
 	
 	// Update is called once per frame
@@ -51,6 +60,7 @@ public class Gun : MonoBehaviour {
             case 0:
                 if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
                 {
+                    GetComponent<AudioSource>().Play();
                     spawnPos = spawnTrans.position;
                     spawnRot = spawnTrans.rotation;
                     GameObject bullet = Instantiate(prefBullet, spawnPos, Quaternion.identity) as GameObject;
@@ -61,6 +71,7 @@ public class Gun : MonoBehaviour {
             case 1:
                 if (OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
                 {
+                    GetComponent<AudioSource>().Play();
                     spawnPos = spawnTrans.position;
                     spawnRot = spawnTrans.rotation;
                     GameObject bullet = Instantiate(prefBullet, spawnPos, Quaternion.identity) as GameObject;

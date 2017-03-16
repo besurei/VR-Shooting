@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bab3f98500f1fac4a94f9cb09981d32e
+timeCreated: 1489643487
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BPreplay
+  fontNames:
+  - BPreplay
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

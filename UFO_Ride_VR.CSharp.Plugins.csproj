@@ -115,6 +115,12 @@
     <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+    <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
     <None Include="Assets\Sky_city\Foliage\Materials\Vegetation.shader" />
     <None Include="Assets\Sky_city\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

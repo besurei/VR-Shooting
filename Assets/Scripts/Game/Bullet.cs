@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bullet : MonoBehaviour {
 
@@ -10,7 +11,6 @@ public class Bullet : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        titleManager = GameObject.Find("TitleManager").GetComponent<TitleManager>();
 
     }
 	
@@ -28,6 +28,7 @@ public class Bullet : MonoBehaviour {
     void OnCollisionEnter(Collision col){
         if(col.gameObject.name == "Start")
         {
+            titleManager = GameObject.Find("TitleManager").GetComponent<TitleManager>();
             titleManager.GameStart();
         }
     }
