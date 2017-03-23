@@ -186,6 +186,7 @@
     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
     <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Shaders\CullOff_Standard.shader" />
     <None Include="Assets\Sky_city\Foliage\Materials\Vegetation.shader" />
     <None Include="Assets\Sky_city\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Sky_city\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
