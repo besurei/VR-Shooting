@@ -37,12 +37,12 @@ public class Target : MonoBehaviour {
         // ボールが当たったらスコア加算
         if(col.gameObject.tag == "Ball")
         {
-            GameObject.Find("HitEffect").gameObject.GetComponent<AudioSource>().Play();
             GameManager gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
             switch(type)
             {
                 case TargetType.RED:
                     hitEffect.GetComponent<ParticleSystem>().Play();
+                    hitEffect.GetComponent<AudioSource>().Play();
                     gameManager.AddScore(1);
                     Destroy(gameObject);
                     Destroy(col.gameObject);
@@ -50,6 +50,7 @@ public class Target : MonoBehaviour {
 
                 case TargetType.GREEN:
                     hitEffect.GetComponent<ParticleSystem>().Play();
+                    hitEffect.GetComponent<AudioSource>().Play();
                     gameManager.AddScore(2);
                     Destroy(gameObject);
                     Destroy(col.gameObject);
@@ -57,6 +58,7 @@ public class Target : MonoBehaviour {
 
                 case TargetType.BLUE:
                     hitEffect.GetComponent<ParticleSystem>().Play();
+                    hitEffect.GetComponent<AudioSource>().Play();
                     gameManager.AddScore(3);
                     Destroy(gameObject);
                     Destroy(col.gameObject);

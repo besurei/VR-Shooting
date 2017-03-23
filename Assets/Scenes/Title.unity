@@ -1750,7 +1750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handType: 0
-  prefBullet: {fileID: 1342091305988504, guid: a25fecda8c282d7428281d75b69377e8, type: 2}
+  prefBullet: {fileID: 1942118170763694, guid: a25fecda8c282d7428281d75b69377e8, type: 2}
 --- !u!1 &898158839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,7 +1911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handType: 1
-  prefBullet: {fileID: 1342091305988504, guid: a25fecda8c282d7428281d75b69377e8, type: 2}
+  prefBullet: {fileID: 1942118170763694, guid: a25fecda8c282d7428281d75b69377e8, type: 2}
 --- !u!1 &904171232
 GameObject:
   m_ObjectHideFlags: 0

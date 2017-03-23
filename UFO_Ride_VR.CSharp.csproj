@@ -145,12 +145,13 @@
     <Compile Include="Assets\Samples\Scripts\HandPose.cs" />
     <Compile Include="Assets\Samples\Scripts\VelocityTracker.cs" />
     <Compile Include="Assets\Scripts\Game\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Game\EndGame.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Game\Gun.cs" />
     <Compile Include="Assets\Scripts\Game\Target.cs" />
-    <Compile Include="Assets\Scripts\Game\TargetFactory.cs" />
-    <Compile Include="Assets\Scripts\Game\Vehicle.cs" />
     <Compile Include="Assets\Scripts\Movie.cs" />
+    <Compile Include="Assets\Scripts\Result\ResultManager.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\ScreenFade.cs" />
     <Compile Include="Assets\Scripts\Title\TitleManager.cs" />
     <Compile Include="Assets\Sky_city\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />

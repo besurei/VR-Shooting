@@ -9,8 +9,10 @@ public class GameManager : MonoBehaviour {
 
     private int score;
 
-	// Use this for initialization
-	void Start () {
+	void Awake () {
+
+        // リザルトまで残す
+        DontDestroyOnLoad(gameObject);
 
         score = 0;
 		
@@ -20,10 +22,19 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 
         scoreText.text = score.ToString("000");
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            Camera.main.GetComponent<ScreenFade>().LoadScreenWithFade("Result");
+        }
 		
 	}
 
     public void AddScore(int add){
         score += add;
+    }
+
+    public int GetScore(){
+        return score;
     }
 }

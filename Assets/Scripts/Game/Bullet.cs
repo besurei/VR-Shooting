@@ -7,7 +7,6 @@ public class Bullet : MonoBehaviour {
 
     private float life = 3.0f;
     private float time = 0.0f;
-    private TitleManager titleManager;
 
 	// Use this for initialization
 	void Start () {
@@ -25,11 +24,27 @@ public class Bullet : MonoBehaviour {
         time += Time.deltaTime;
 	}
 
-    void OnCollisionEnter(Collision col){
-        if(col.gameObject.name == "Start")
+    void OnCollisionEnter(Collision col) {
+        switch (SceneManager.GetActiveScene().name)
         {
-            titleManager = GameObject.Find("TitleManager").GetComponent<TitleManager>();
-            titleManager.GameStart();
-        }
+            case "Title":
+            if (col.gameObject.name == "Start")
+            {
+                GameObject.Find("TitleManager").GetComponent<TitleManager>().LoadGame();
+            }
+                break;
+
+            case "Result":
+                ResultManager resultManager = GameObject.Find("ResultManager").GetComponent<ResultManager>();
+            if (col.gameObject.name == "Retry")
+                {
+                    resultManager.LoadGame();
+                }
+            else if( col.gameObject.name == "Title" )
+                {
+                    resultManager.LoadTitle();
+                }
+                break;
+    }
     }
 }
