@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TitleManager : MonoBehaviour {
 
-	public void LoadGame(){
+	public void LoadTutorial(){
         Camera.main.GetComponent<ScreenFade>().LoadScreenWithFade("Tutorial");
     }
 }

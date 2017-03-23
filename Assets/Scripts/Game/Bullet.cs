@@ -30,8 +30,15 @@ public class Bullet : MonoBehaviour {
             case "Title":
             if (col.gameObject.name == "Start")
             {
-                GameObject.Find("TitleManager").GetComponent<TitleManager>().LoadGame();
+                GameObject.Find("TitleManager").GetComponent<TitleManager>().LoadTutorial();
             }
+                break;
+
+            case "Tutorial":
+                if (col.gameObject.name == "GameStart")
+                {
+                    GameObject.Find("TutorialManager").GetComponent<TutorialManager>().GameStart();
+                }
                 break;
 
             case "Result":

@@ -151,9 +151,9 @@
     <Compile Include="Assets\Scripts\Game\Target.cs" />
     <Compile Include="Assets\Scripts\Movie.cs" />
     <Compile Include="Assets\Scripts\Result\ResultManager.cs" />
-    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\ScreenFade.cs" />
     <Compile Include="Assets\Scripts\Title\TitleManager.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\TutorialManager.cs" />
     <Compile Include="Assets\Sky_city\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Sky_city\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\Sky_city\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />

@@ -11,8 +11,9 @@ public class ResultManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
-        score = GameObject.Find("GameManager").GetComponent<GameManager>().GetScore();
+        GameObject gameManager = GameObject.Find("GameManager");
+        score = gameManager.GetComponent<GameManager>().GetScore();
+        Destroy(gameManager);
         scoreText.text = score.ToString();
 		
 	}
