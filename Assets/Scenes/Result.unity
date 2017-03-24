@@ -1144,7 +1144,7 @@ Camera:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 923482620}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -2328,7 +2328,7 @@ Camera:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1848034209}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -2453,7 +2453,6 @@ GameObject:
   - component: {fileID: 2033259064}
   - component: {fileID: 2033259067}
   - component: {fileID: 2033259066}
-  - component: {fileID: 2033259065}
   m_Layer: 0
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
@@ -2475,21 +2474,6 @@ Transform:
   m_Father: {fileID: 315395427}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2033259065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114341818956667846, guid: 5fced58967835934d91a25406b7665a9,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2033259063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d9b176b121d86e4993c868ab8f43de3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeTime: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeShader: {fileID: 0}
 --- !u!20 &2033259066
 Camera:
   m_ObjectHideFlags: 0

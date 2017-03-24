@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TitleManager : MonoBehaviour {
 
 	public void LoadTutorial(){
-        Camera.main.GetComponent<ScreenFade>().LoadScreenWithFade("Tutorial");
+        SceneManager.LoadScene("Tutorial");
     }
 }

@@ -21,13 +21,7 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        scoreText.text = score.ToString("000");
-
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            Camera.main.GetComponent<ScreenFade>().LoadScreenWithFade("Result");
-        }
-		
+        scoreText.text = score.ToString("000");		
 	}
 
     public void AddScore(int add){

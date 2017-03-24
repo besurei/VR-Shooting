@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ResultManager : MonoBehaviour {
 
@@ -19,10 +20,10 @@ public class ResultManager : MonoBehaviour {
 	}
 	
 	public void LoadGame(){
-        Camera.main.GetComponent<ScreenFade>().LoadScreenWithFade("Game");
+        SceneManager.LoadScene("Game");
     }
 
     public void LoadTitle(){
-        Camera.main.GetComponent<ScreenFade>().LoadScreenWithFade("Title");
+        SceneManager.LoadScene("Title");
     }
 }
